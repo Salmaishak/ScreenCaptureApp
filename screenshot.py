@@ -19,8 +19,8 @@ def screenshot():
 
 r = tk.Tk()
 button1= tk.Button(r, text="Take Screenshot", command=screenshot)
-button1.pack()
+button1.pack(side= tk.LEFT)
 button2= tk.Button(r, text="Quit",command=quit)
-button2.pack()
+button2.pack(side= tk.RIGHT)
 
 r.mainloop()

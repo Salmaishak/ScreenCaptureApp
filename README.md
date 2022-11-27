@@ -1,1 +1,1 @@
-# ScreenShot-App
+# Screen Capture App
